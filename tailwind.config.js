@@ -4,7 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        // Configure your color palette here
+        navC: "#222831",
+        7: "#002B5B"
+      },
+      keyframes: {
+        cross: {
+          
+        }
+      }
+    },
+  
   },
   plugins: [],
 }
