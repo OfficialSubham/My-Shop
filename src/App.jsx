@@ -1,12 +1,18 @@
 import "./output.css";
-import Navbar from "./component/Navbar.jsx";
+import Navbar from "./mycomponents/Navbar.jsx";
+import NavigationMenu  from "./components/ui/navigation-menu";
+import { Button } from "./components/ui/button";
 function App() {
-
   return (
     <>
-      <Navbar/>
+      <NavigationMenu>
+  
+      </NavigationMenu>
+
+      {/* <Navbar/> */}
+      <Button>hello</Button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
