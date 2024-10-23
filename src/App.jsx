@@ -1,16 +1,12 @@
 import "./output.css";
-import Navbar from "./mycomponents/Navbar.jsx";
 import NavigationMenu  from "./components/ui/navigation-menu";
 import { Button } from "./components/ui/button";
+import  Carousel  from "./components/ui/carousel";
 function App() {
   return (
     <>
-      <NavigationMenu>
-  
-      </NavigationMenu>
-
-      {/* <Navbar/> */}
-      <Button>hello</Button>
+      <NavigationMenu />
+      <Carousel/>
     </>
   );
 }
